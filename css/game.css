@@ -1,0 +1,84 @@
+/* Selectors grouped by type */
+
+/* IDs */
+#storyline {
+  font-size: 18px;
+  }
+  
+  #continue {
+  padding: 10px 20px;
+  
+  font-size: 20px;
+  
+  }
+  
+  #goblin {
+  width: 100px;
+  }
+  
+  #mage {
+  width: 150px;
+  }
+  
+  /* Classes */
+  .coin {
+  display: inline-block;
+  text-align: center;
+  }
+  
+  .coin img {
+  width: 50px;
+  }
+  
+  .coin .amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  
+  /* Group selectors */
+  #health-potion,
+  
+  #mana-potion,
+  
+  #curse-potion,
+  
+  #shield-potion {
+  width: 50px;
+  }
+  
+  #currency-container {
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  
+  #gold-icon,
+  
+  #diamond-icon {
+  width: 50px;
+  vertical-align: middle;
+  }
+  .item-detail {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } /* item-detail */
+  
+  .item-detail img {
+    width: 100%;
+    display: block;
+  } /* item-detail img */
+  
+  .item-detail .info {
+    font-size: 16px;
+  } /* item-detail .info */
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 5px;  
+  }
+  
+  .description {
+    color: #666;
+  }
+    

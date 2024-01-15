@@ -1,0 +1,10 @@
+<div id="map">
+    {% for location in locations %}
+      <div 
+        class="location {{ location.class }}"  
+        data-name="{{ location.name }}">
+        {{ location.name }}
+      </div>
+    {% endfor %}
+  </div>
+  

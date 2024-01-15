@@ -1,0 +1,10 @@
+select, input {
+    padding: 5px;  
+    font-size: 16px;
+  }
+  
+  #create {
+    padding: 10px 20px;  
+    font-size: 20px;
+  }
+  
